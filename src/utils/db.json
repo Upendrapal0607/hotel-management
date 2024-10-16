@@ -1,0 +1,249 @@
+[
+  {
+    "hotel_name": "The Grand Hotel",
+    "hotel_type": "Luxury",
+    "owner_info": {
+      "full_name": "John Doe",
+      "email": "john.doe@example.com",
+      "contact_number": "+123456789",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Paris",
+      "state": "Île-de-France",
+      "country": "France",
+      "zipcode": "75001",
+      "landmark": "Eiffel Tower",
+      "locality": "Champs-Élysées",
+      "type": "Tourist"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728461554/qa2phimahdbezo1yjiga.jpg",
+    "hotel_category": "5-star",
+    "description": "Luxury hotel in the heart of Paris with views of the Eiffel Tower.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Deluxe", "price": 5000, "availability": 50 },
+      { "room_type": "Suite", "price": 10000, "availability": 30 },
+      { "room_type": "Presidential Suite", "price": 20000, "availability": 10 }
+    ]
+  },
+  {
+    "hotel_name": "Ocean View Resort",
+    "hotel_type": "Resort",
+    "owner_info": {
+      "full_name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "contact_number": "+987654321",
+      "gender": "female"
+    },
+    "hotel_address": {
+      "city": "Malé",
+      "state": "North Malé Atoll",
+      "country": "Maldives",
+      "zipcode": "20026",
+      "landmark": "Lagoon Beach",
+      "locality": "Island Resort",
+      "type": "Beach"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728394520/h5zgf7l76m61regpsg7r.jpg",
+    "hotel_category": "5-star",
+    "description": "Resort with private villas and ocean views.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Villa", "price": 8000, "availability": 25 },
+      { "room_type": "Ocean Suite", "price": 12000, "availability": 15 },
+      { "room_type": "Beach House", "price": 18000, "availability": 12 }
+    ]
+  },
+  {
+    "hotel_name": "Skyline Suites",
+    "hotel_type": "Apartment",
+    "owner_info": {
+      "full_name": "Emily White",
+      "email": "emily.white@example.com",
+      "contact_number": "+234567891",
+      "gender": "female"
+    },
+    "hotel_address": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipcode": "10001",
+      "landmark": "Times Square",
+      "locality": "Midtown Manhattan",
+      "type": "Business"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728385510/pbk9dnfhr7nifk8fe5zx.jpg",
+    "hotel_category": "4-star",
+    "description": "Modern suites located in the heart of New York City.",
+    "is_verified": false,
+    "type_of_room": [
+      { "room_type": "Studio", "price": 4000, "availability": 60 },
+      { "room_type": "One-Bedroom Suite", "price": 6000, "availability": 40 }
+    ]
+  },
+  {
+    "hotel_name": "Royal Desert Camp",
+    "hotel_type": "Camp",
+    "owner_info": {
+      "full_name": "Raj Singh",
+      "email": "raj.singh@example.com",
+      "contact_number": "+9123456789",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "country": "India",
+      "zipcode": "345001",
+      "landmark": "Sam Sand Dunes",
+      "locality": "Desert Camp",
+      "type": "Adventure"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728170082/i1x5cqwqpueb25ns6pup.jpg",
+    "hotel_category": "4-star",
+    "description": "Luxury desert camp with traditional Rajasthani decor.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Standard Tent", "price": 3000, "availability": 80 },
+      { "room_type": "Luxury Tent", "price": 5000, "availability": 50 }
+    ]
+  },
+  {
+    "hotel_name": "Mountain Lodge",
+    "hotel_type": "Lodge",
+    "owner_info": {
+      "full_name": "Carlos Rodriguez",
+      "email": "carlos.rodriguez@example.com",
+      "contact_number": "+567891234",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Cusco",
+      "state": "Cusco",
+      "country": "Peru",
+      "zipcode": "08002",
+      "landmark": "Machu Picchu",
+      "locality": "Sacred Valley",
+      "type": "Adventure"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728168612/s9y5jjkx6vhmiduazgr5.jpg",
+    "hotel_category": "3-star",
+    "description": "Cozy lodge near the famous Incan ruins of Machu Picchu.",
+    "is_verified": false,
+    "type_of_room": [
+      { "room_type": "Standard Room", "price": 2000, "availability": 100 },
+      { "room_type": "Deluxe Room", "price": 4000, "availability": 70 },
+      { "room_type": "Suite", "price": 8000, "availability": 25 }
+    ]
+  },
+  {
+    "hotel_name": "Safari Wild Lodge",
+    "hotel_type": "Lodge",
+    "owner_info": {
+      "full_name": "Kofi Amankwa",
+      "email": "kofi.amankwa@example.com",
+      "contact_number": "+23398765432",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Arusha",
+      "state": "Arusha",
+      "country": "Tanzania",
+      "zipcode": "23100",
+      "landmark": "Serengeti National Park",
+      "locality": "Safari",
+      "type": "Wildlife"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728127311/f6ltt9yog5ulcf4gvsge.jpg",
+    "hotel_category": "5-star",
+    "description": "Luxury lodge offering safari experiences in the Serengeti.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Standard Room", "price": 6000, "availability": 50 },
+      { "room_type": "Luxury Suite", "price": 15000, "availability": 20 },
+      { "room_type": "Tent Suite", "price": 12000, "availability": 30 }
+    ]
+  },
+  {
+    "hotel_name": "Snowy Peaks Chalet",
+    "hotel_type": "Chalet",
+    "owner_info": {
+      "full_name": "Olga Petrova",
+      "email": "olga.petrova@example.com",
+      "contact_number": "+74951234567",
+      "gender": "female"
+    },
+    "hotel_address": {
+      "city": "Zermatt",
+      "state": "Valais",
+      "country": "Switzerland",
+      "zipcode": "3920",
+      "landmark": "Matterhorn",
+      "locality": "Alps",
+      "type": "Ski Resort"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728169153/f5dvviw7srifqpq57lwa.jpg",
+    "hotel_category": "4-star",
+    "description": "Cozy chalet with stunning views of the Matterhorn.",
+    "is_verified": false,
+    "type_of_room": [
+      { "room_type": "Deluxe Chalet", "price": 12000, "availability": 15 },
+      { "room_type": "Family Chalet", "price": 10000, "availability": 25 }
+    ]
+  },
+  {
+    "hotel_name": "Urban Heights",
+    "hotel_type": "Hotel",
+    "owner_info": {
+      "full_name": "Tom Zhang",
+      "email": "tom.zhang@example.com",
+      "contact_number": "+86123456789",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Shanghai",
+      "state": "Shanghai",
+      "country": "China",
+      "zipcode": "200001",
+      "landmark": "The Bund",
+      "locality": "Huangpu",
+      "type": "City Center"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728382575/vxne3wtconji2prl189t.jpg",
+    "hotel_category": "5-star",
+    "description": "Modern hotel with panoramic views of the Shanghai skyline.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Deluxe Room", "price": 5000, "availability": 70 },
+      { "room_type": "Executive Suite", "price": 15000, "availability": 30 }
+    ]
+  },
+  {
+    "hotel_name": "Sahara Oasis",
+    "hotel_type": "Resort",
+    "owner_info": {
+      "full_name": "Amir Al-Farsi",
+      "email": "amir.alfarsi@example.com",
+      "contact_number": "+97123456789",
+      "gender": "male"
+    },
+    "hotel_address": {
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "UAE",
+      "zipcode": "00000",
+      "landmark": "Burj Khalifa",
+      "locality": "Downtown Dubai",
+      "type": "Luxury"
+    },
+    "hotel_image": "https://res.cloudinary.com/dnnyncotr/image/upload/v1728461554/qa2phimahdbezo1yjiga.jpg",
+    "hotel_category": "5-star",
+    "description": "Luxury resort offering desert adventures and city views.",
+    "is_verified": true,
+    "type_of_room": [
+      { "room_type": "Standard Room", "price": 7000, "availability": 90 },
+      { "room_type": "Suite", "price": 18000, "availability": 50 }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+/* Carousel.css */
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+}
+
+.slick-list {
+  overflow: hidden;
+  color: blueviolet;
+}
+
+.slick-track {
+  display: flex !important;
+  color: blueviolet;
+}
+
+.slick-arrow {
+  margin: 0px 15px !important;
+}
+
+.slick-arrow:before {
+  color: blue !important;
+  font-size: large !important;
+}
+
+.slick-slide > div {
+  margin: 0 15px;
+  color: blueviolet;
+}
